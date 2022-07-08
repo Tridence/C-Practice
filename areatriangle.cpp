@@ -4,18 +4,19 @@ using namespace std;
 
 int main(){
     //function declaration
-    int length, width, area;
+    int area, base, height;
 
     //request input
-    cout<<"Enter the length "<<endl;
-    cin>>length;
-    cout<< "Enter the width"<<endl;
-    cin>>width;
+    cout<<"Enter the base "<<endl;
+    cin>>base;
+    cout<< "Enter the height"<<endl;
+    cin>>height;
 
     //calculate area
-    area = length*width;
+    area = 0.5*base*height;
 
     //output
+    cout << "The area of the Triangle is: "<<endl<< area;
 
     return 0;
 }
