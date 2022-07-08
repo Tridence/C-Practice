@@ -1,4 +1,4 @@
-//area of a rectangle
+//area of a triangle
 #include <iostream>
 using namespace std;
 
@@ -16,7 +16,6 @@ int main(){
     area = length*width;
 
     //output
-    cout<< "The area of the rectangle is: "<<endl<<area;
 
     return 0;
 }
